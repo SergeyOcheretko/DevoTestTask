@@ -18,7 +18,7 @@ public class CucumberHooks  {
     @Before
     public void setup() throws IOException {
      if (System.getProperty("webdriver.chrome.driver")==null) {
-         System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sergey\\QWEQWRT\\DevoTestTask\\src\\main\\resources\\driver\\chromedriver.exe");
+         System.setProperty("webdriver.chrome.driver", "src/main/resources/driver/chromedriver.exe");
      }
 
         driver = new ChromeDriver();
